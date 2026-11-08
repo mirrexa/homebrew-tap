@@ -14,7 +14,7 @@ cask "swarmfile" do
   homepage "https://swarmfile.com"
 
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   # The universal, notarized .pkg bundles the FUSE-T mount helper, the engine,
   # the tray, and the LaunchAgents — no separate macFUSE/FUSE-T install needed.
