@@ -5,8 +5,8 @@
 # must not treat a self-updated app as needing a "downgrade" back to this
 # pinned version. See installers/packaging/README.md.
 cask "swarmfile" do
-  version "0.3.14"
-  sha256 "31e20c1c929d68fbe3c40c314ec00fff76821febac009fe66850c628205ce102"
+  version "0.3.15"
+  sha256 "ec425438ccd79b3d186c7697261854b3d6f526b0b8ead152666b5b8ffca55bab"
 
   url "https://releases.swarmfile.com/v#{version}/Swarmfile-#{version}.pkg"
   name "Swarmfile"
